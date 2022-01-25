@@ -1,18 +1,24 @@
 # DevOps-Engineer-onboarding
 ## Guiding thoughts
-**Take time to learn.** Don't get sucked into the minutia of decision-making or project involvement too early - there will be plenty of time for that later. In your first 30 days, try to focus on getting comfortable and learning how things work. Try to learn Linux basic, bash scripts and etc.
+This roadmap is set up to train a DevOps engineer. In 90 days, you can learn the most necessary topics and learn the tools used by DevOps. It is designed for you to spend 2-3 hours of your daily time learning. Of course, you can complete the course in less than 90 days, but here, first of all, it is important how much you understood after completing the training. <br />
+### Take time to learn.
+ Don't get sucked into the minutia of decision-making or project involvement too early - there will be plenty of time for that later. In your first 30 days, try to focus on getting comfortable and **learning how things work**. Try to learn Linux basic, bash scripts, git and etc.
 
-**Invest in relationships.** By day 60, you'll be in execution mode. In your first two months, spend as much time as you can getting to know people and forming relationships. So, try to learn Git, docker and bash advanced, which are nessesary tools for DevOps engineers. 
+### Invest in relationships.
+ By day 60, you'll be in **execution mode**. In your first two months, spend as much time as you can getting to know people and forming relationships. And, of course, try to learn DevOps usefull and necessary tools, such as: saltstack, monitoring tools and network basics.
 
-## 90-day milestones
-After that, you need to get some experience with sql db sush as postgresql and mysql, with web-server Nginx and Kubernetes basic and ,of course, CI/CD. I've put together this onboarding plan to help you get up to speed in your new role as a DevOps Engineer on DevOps team. 
+### 90-day milestones
+After that, you need to get some experience with sql db sush as postgresql and mysql, with Docker and Kubernetes basic, and  to completion, learn Terraform. I've put together this onboarding plan to help you get up to speed in your new role as a DevOps Engineer on DevOps team. 
 
 **Don't be afraid to ask.** No one expects you to know how things at Area0 work right away. Take advantage of that and ask for help when you need it. Feel free to reach out if you have any questions. <br />
 [@Andrey Gerasimov](https://github.com/geri4)<br />
 [@Timur Nasridinov](https://github.com/timur-ND)
-| Outcome | Steps | Tasks |
-| :---: | --- | --- |
-|I understand how to work with **Linux**|[1. Online Linux basics course](https://stepik.org/course/73/syllabus) <br /> [2. Read about cron](https://tproger.ru/translations/guide-to-cron-jobs/) <br /> [3. Read about Linux Directory Structure](https://eng.libretexts.org/Bookshelves/Computer_Science/Operating_Systems/Linux_-_The_Penguin_Marches_On_(McClanahan)/04%3A_Managing_Linux_Storage/5.12%3A_Linux_Directory_Structure/5.12.01%3A_Linux_Directory_Structure_-_Hierarchy) |[A. Install Ubuntu on your desktop](https://ubuntu.com/download/desktop) <br /> B. Investigate your system - install **htop** and find out your resources. <br /> C. Create your own folder for your files, install usefull programms (Web-browser, Visual Studio Code, some messengers, Guake Terminal and etc.) <br /> D. Configure you workplace (configure terminal, create new patition on disk (optional) and etc.)
+<br />
+![alt text](https://img.medscape.com/thumbnail_library/dt_170517_dawn_sunrise_800x600.jpg)
+# Plan
+| Outcome | Steps | Tasks | Info |
+| :---: | --- | --- | :---: |
+|I understand how to work with **Linux**|[1. Online Linux basics course](https://stepik.org/course/73/syllabus) <br /> [2. Read about cron](https://tproger.ru/translations/guide-to-cron-jobs/) <br /> [3. Read about Linux Directory Structure](https://eng.libretexts.org/Bookshelves/Computer_Science/Operating_Systems/Linux_-_The_Penguin_Marches_On_(McClanahan)/04%3A_Managing_Linux_Storage/5.12%3A_Linux_Directory_Structure/5.12.01%3A_Linux_Directory_Structure_-_Hierarchy) |[A. Install Ubuntu on your desktop](https://ubuntu.com/download/desktop) <br /> B. Investigate your system - install **htop** and find out your resources. <br /> C. Create your own folder for your files, install usefull programms (Web-browser, Visual Studio Code, some messengers, Guake Terminal and etc.) <br /> D. Configure you workplace (configure terminal, create new patition on disk (optional) and etc.) | This steps are most necessary for begining. This can take 2-3 weeks for study. 
 |I can write on **Bash**|[1. Bash tutorial](https://omgubuntu.ru/osnovy-bash-dlia-novichkov/) <br /> [2. Bash usefull commands](https://github.com/Idnan/bash-guide)<br />[3. Bash Guide full](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)| A. Try to create Bash script with basic commands (write file to disk, read file, calculate something and etc.) <br />
 |I know how to deal with **Git**|[1. Git Begin](https://githowto.com/ru) <br /> [2. Git 30 minutes](https://proglib.io/p/git-for-half-an-hour) <br />[3. Katacoda Git course](https://katacoda.com/courses/git)| A. Create your own repo in Github.com and try to push some files (for example, your Bash scripts from previous step) <br /> B. Clone some public repos and investigate it structure.
 |I know what is Regex|[1. Bash Regex](https://habr.com/ru/company/ruvds/blog/327896/)| A. Try to use regex in your bash scripts, for example, find some lines in file.
